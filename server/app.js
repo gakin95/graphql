@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const {graphqlHTTP} = require('express-graphql');
 const schema = require('./schema/schema');
 
-const mongoUri = "mongodb+srv://gakin95:googleman@cluster0.12z9j.azure.mongodb.net/test";
+const mongoUri = "CloudUrl"; // enter your cloud address
 
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
